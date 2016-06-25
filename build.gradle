@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories { 
+	jcenter()
+	maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    // compile files('libs/qstudioopen.jar')
+	compile 'com.github.timeseries:qstudioopen:0.11'
+}
